@@ -1,0 +1,16 @@
+h2{
+  background-color: brown;
+}
+
+.box1
+{
+ width:100px;
+height:100px;
+background-color: gray;
+}
+.box2
+{
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+ ;
+ color: tomato;
+}

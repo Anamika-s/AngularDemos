@@ -1,0 +1,24 @@
+<div class="box1" [ngClass]="box2" > DIV 1 </div> 
+<input type="text"  disabled={{enable}} name="" id="" [value]="firstName"/>
+<input type="text"  [disabled]=enable name="" id="" [value]="firstName"/>
+<input type="text"  hidden={{enable}} name="" id="" [value]="firstName"/>
+<input type="text"  [hidden]=enable name="" id="" [value]="firstName"/>
+
+<h1> {{message}} </h1>
+<img [src]="image1"/>
+{{firstName  +  " " + lastName}}
+<div [innerHTML] = "firstName"> </div>
+<button (click)= "hello()"> Click </button>
+<input type="text" value="data" (click)="OnTextBoxClick($event)">
+<button value="Laptop" (click)="onClick($event)"> Laptop </button>
+
+<button value="Mobile" (click)="onClick($event)"> Mobile </button>
+
+
+<button value="Desktop" (click)="onClick($event)"> Desktop </button>
+
+<h2> You have selected {{device}} </h2>
+
+<!-- <input type="text" id="" name="" (click) [value]= "firstName"/> -->
+
+<input type="text" id="" name=""  [(ngModel)]= "firstName"/>
